@@ -1,7 +1,7 @@
-
-createtictacarray();
-function createtictacarray()
-{
-    var tictacarray = new arrray(' ',' ',' ',' ',' ',' ',' ',' ',' ',' ');
-    tictacarray.splice(1,10);
-}
+ createtictacarray();
+    function createtictacarray()
+    {
+        var tictacarray =[' ',' ',' ',' ',' ',' ',' ',' ',' ',' '];
+        var updatedtictacarray = tictacarray.slice(1,10);
+        console.log(" Array Created with Length.." , updatedtictacarray.length);
+    }
